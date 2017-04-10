@@ -14,9 +14,12 @@ public class MainActivity extends Activity {
 
     public String TAG = "MainActivity";
 
+    {
+        Log.i(TAG, "constructor");
+    }
+
     public MainActivity() {
         super();
-        Log.i(TAG, "constructor");
     }
 
     @Override

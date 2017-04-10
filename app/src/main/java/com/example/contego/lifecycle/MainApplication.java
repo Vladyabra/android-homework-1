@@ -8,9 +8,12 @@ public class MainApplication extends Application {
 
     public String TAG = "MainApplication";
 
+    {
+        Log.i(TAG, "constructor");
+    }
+
     public MainApplication() {
         super();
-        Log.i(TAG, "constructor");
     }
 
     @Override
